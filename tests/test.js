@@ -16,5 +16,5 @@ test('should fail with wrong inputs', (t) => {
 
 test('should pass on valid search.msn.com crawler ip', (t) => {
   t.plan(1)
-  isBing('157.55.33.18').then(outcome => t.ok(outcome))
+  isBing('207.46.13.1').then(outcome => t.ok(outcome))
 })
