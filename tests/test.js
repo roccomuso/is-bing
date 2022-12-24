@@ -16,5 +16,6 @@ test('should fail with wrong inputs', (t) => {
 
 test('should pass on valid search.msn.com crawler ip', (t) => {
   t.plan(1)
+  // List of valid IPs can be found here https://www.bing.com/toolbox/bingbot.json
   isBing('207.46.13.1').then(outcome => t.ok(outcome))
 })
