@@ -24,3 +24,4 @@ function isBing (ip) {
 }
 
 module.exports = isBing
+module.exports.default = isBing
