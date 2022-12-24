@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Verify that a request is from Bing crawlers using Bing's DNS verification steps",
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
     "test": "standard && tape ./tests/test.js | tap-spec"
   },
